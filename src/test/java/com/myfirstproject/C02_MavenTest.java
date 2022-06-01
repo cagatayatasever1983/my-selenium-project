@@ -18,6 +18,7 @@ public class C02_MavenTest {
     public void name() {
         System.out.println(System.getProperty("user.dir"));
         System.out.println(System.getProperty("user.home"));
+        System.out.println("CAGATAY");
         //D:\Users\User\Downloads
         String dosyaYolu=System.getProperty("user.home")+"\\Desktop\\text.txt";
         System.out.println(dosyaYolu);
